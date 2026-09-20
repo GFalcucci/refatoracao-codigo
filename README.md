@@ -1,6 +1,6 @@
-Refatoração
+# Refatoração
 
-Este projeto apresenta a refatoração de um sistema de venda de consoles, aplicando princípios de Orientação a Objetos para melhorar a organização, a manutenção e a flexibilidade do código.
+## Este projeto apresenta a refatoração de um sistema de venda de consoles, aplicando princípios de Orientação a Objetos para melhorar a organização, a manutenção e a flexibilidade do código.
 
 Refatorações realizadas
 Encapsulamento: atributos de Console tornados privados, com acesso apenas por getters, evitando estados inválidos (como preço negativo).
@@ -11,4 +11,4 @@ Herança usada de forma apropriada: PlaystationPortatil reaproveita o comportame
 Polimorfismo: Loja passou a depender apenas da abstração IConsole, eliminando o if/else e o instanceof que antes verificavam o tipo de cada console.
 Resultado
 
-A refatoração reduziu o acoplamento entre Loja e os tipos concretos de console, eliminou a repetição de código entre as classes e facilitou a inclusão de novos consoles no sistema.
+## A refatoração reduziu o acoplamento entre Loja e os tipos concretos de console, eliminou a repetição de código entre as classes e facilitou a inclusão de novos consoles no sistema.
